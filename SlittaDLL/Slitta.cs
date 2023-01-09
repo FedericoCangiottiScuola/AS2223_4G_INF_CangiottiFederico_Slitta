@@ -1,6 +1,6 @@
 ﻿namespace SlittaDLL
 {
-    internal class Slitta
+    public class Slitta
     {
         double maxPeso;
         double maxVolume;
@@ -31,6 +31,7 @@
                 return false;
             }
 
+            regali.Add(inputRegalo);
             return true;
         }
     }

@@ -1,6 +1,6 @@
 ﻿namespace SlittaDLL
 {
-    internal class Regalo
+    public class Regalo
     {
         public double Peso { get; }
         public double Volume { get; }
