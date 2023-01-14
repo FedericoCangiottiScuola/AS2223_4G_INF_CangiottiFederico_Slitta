@@ -14,6 +14,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Slitta
             slitta.AggiungiRegalo(computer);
             slitta.AggiungiRegalo(libro);
             slitta.AggiungiRegalo(zaino);
+            Console.WriteLine(slitta.VisualizzaRegali());
         }
     }
 }

@@ -34,5 +34,19 @@
             regali.Add(inputRegalo);
             return true;
         }
+
+        public string VisualizzaRegali()
+        {
+            string ris = "";
+
+            int i = 1;
+            foreach(Regalo regalo in regali)
+            {
+                ris += $"{i}) Descrizione: {regalo.Descrizione}\nColore: {regalo.Colore}\nPeso: {regalo.Peso}\nVolume: {regalo.Volume}\n\n";
+                i++;
+            }
+
+            return ris;
+        }
     }
 }
