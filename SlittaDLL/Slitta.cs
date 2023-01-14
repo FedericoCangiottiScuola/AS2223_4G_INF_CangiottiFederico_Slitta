@@ -13,6 +13,11 @@
             regali = new List<Regalo> { };
         }
 
+        /// <summary>
+        /// Aggiunge un oggetto di tipo Regalo nella lista
+        /// </summary>
+        /// <param name="inputRegalo"></param>
+        /// <returns>Operazione a buon fine [true], operazione non riuscita [false]</returns>
         public bool AggiungiRegalo(Regalo inputRegalo)
         {
             double peso = 0;
@@ -35,6 +40,10 @@
             return true;
         }
 
+        /// <summary>
+        /// Recupera le informazioni riguardo i regali inseriti
+        /// </summary>
+        /// <returns>Stringa con informazioni formattate</returns>
         public string VisualizzaRegali()
         {
             string ris = "";
